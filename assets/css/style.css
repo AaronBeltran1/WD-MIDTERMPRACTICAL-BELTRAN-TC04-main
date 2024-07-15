@@ -1,0 +1,154 @@
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: -3%;
+    transition: .4s ease;
+}
+
+.intro {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.purchase{
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    border: 4px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+.banner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img.freepik.com/free-photo/composition-fathers-day-with-accessories_23-2147790928.jpg?t=st=1717238978~exp=1717242578~hmac=569e8f2d40308683d2045895ccc5e0bd6f9eff3d44c817809425879f5d9737d1&w=900);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+}
+.gbg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://img.freepik.com/free-photo/composition-fathers-day-with-accessories_23-2147790928.jpg?t=st=1717238978~exp=1717242578~hmac=569e8f2d40308683d2045895ccc5e0bd6f9eff3d44c817809425879f5d9737d1&w=900);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+}
+
+/* Card styling */
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+    border-bottom: 2px solid #f4f4f9;
+    padding-bottom: 0.5rem;
+}
+
+.card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #000000;
+}
+
+.education-item, .card ul, .card p {
+    margin-bottom: 1rem;
+}
+
+
+footer {
+    background-color: rgb(37, 36, 36);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer p, footer a {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #1da1f2;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
